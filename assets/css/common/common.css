@@ -1,0 +1,53 @@
+.m-lable {
+  display: block;
+  font-size: 13px;
+  color: #000000;
+  padding-bottom: 4px;
+}
+.m-container {
+  max-width: 1200px;
+  margin: auto;
+}
+.m-row {
+  margin: 5px 0;
+}
+.m-text-right {
+  text-align: right;
+}
+.m-text-left {
+  text-align: left;
+}
+.m-text-center {
+  text-align: center;
+}
+.m-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.m-flex-between {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.m-flex-item-center {
+  display: flex;
+  align-items: center;
+}
+.m-icon {
+  height: 20px;
+  margin-right: 10px;
+}
+.m-icon > img {
+  height: 20px;
+  vertical-align: middle;
+}
+.m-icon > i {
+  padding-right: 8px;
+}
+.m-text-right {
+  text-align: right;
+}
+.m-border-none {
+  border: none;
+  outline: unset;
+}

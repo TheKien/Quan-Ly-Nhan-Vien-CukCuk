@@ -1,0 +1,25 @@
+
+input.m-input {
+    border: 1px #bbbbbb solid;
+    border-radius: 5px;
+    height: 36px;
+    padding-left: 16px;
+    background-color: unset;
+    outline: unset;
+}
+.m-input::placeholder {
+    font-size: 11px;
+    color: #bbbbbb;
+}
+.m-input:focus {
+    border-color: #019160;
+}
+.m-input.m-input-error {
+    border-color: #FF4747;
+}
+.m-input.m-input-search {
+    background-image: url('../../content/icon/search.png');
+    background-position:16px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
