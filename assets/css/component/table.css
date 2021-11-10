@@ -2,36 +2,37 @@
   height: calc(100% - 159px);
   overflow-y: scroll;
 }
+
 .table-content::-webkit-scrollbar {
   width: 5px;
   background-color: #bbbbbb;
 }
+
 .table-content::-webkit-scrollbar-thumb {
   background: #454545;
 }
+
 .m-table {
   border-spacing: unset;
   border: unset;
   border-collapse: collapse;
   width: 100%;
 }
+
 .m-table tr {
   height: 48px;
   border-bottom: 1px solid #ddd;
 }
+
 .m-table tbody tr:hover {
   background-color: #ebf9f4;
 }
-.m-table td,
-th {
+
+.m-table td, th {
   padding: 0 8px;
   border: none;
 }
+
 .m-table tbody tr:nth-child(2n-1) {
   background-color: #e9ebee;
 }
-/* table.m-table tr td,
-table.m-table tr th:first-child{
-    padding-left: 16px;
-    padding-right: 18px;
-} */

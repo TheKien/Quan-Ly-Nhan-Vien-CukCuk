@@ -11,34 +11,38 @@
   cursor: pointer;
   border: none;
 }
+
 .m-btn:hover {
   background-color: #2fbe8e;
 }
+
 .m-btn.m-btn-icon {
   padding: 0 16px;
 }
+
 .m-btn.m-btn-icon .icon {
   margin-right: 8px;
   height: 16px;
   width: 16px;
   vertical-align: middle;
 }
+
 .m-btn.m-second-btn {
   min-width: 40px;
   background-color: #fff;
   color: #000000;
   border: 1px #e9ebee solid;
 }
+
 .m-second-btn:hover {
   background-color: #e9ebee;
 }
+
 .m-btn-icon-2 button{
   border-radius: 0;
   float: left;
 }
-.m-btn-icon-2 .m-btn-icon-down{
-  
-}
+
 .m-btn:active,
 .m-btn-icon:active,
 .m-second-btn:active {

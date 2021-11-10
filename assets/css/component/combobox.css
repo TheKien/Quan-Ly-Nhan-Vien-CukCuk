@@ -6,18 +6,22 @@
   display: inline-block;
   overflow: hidden;
 }
-.m-combobox input {
+
+.m-combobox .m-combobox-input {
   border: none;
   height: 100%;
-  padding: 0 0 0 16px;
+  padding-left: 16px;
 }
-.m-combobox button {
+
+.m-combobox .m-combobox-btn {
   border: none;
   border-left: 1px solid #bbbbbb;
   background-color: #fff;
   height: 40px;
-  padding: 12px;
+  padding: 0 12px;
+  cursor: pointer;
 }
-.m-combobox input:focus {
+
+.m-combobox .m-combobox-input:focus + .m-combobox {
   border-color: #019160;
 }

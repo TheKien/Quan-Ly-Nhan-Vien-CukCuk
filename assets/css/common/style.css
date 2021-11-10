@@ -4,7 +4,7 @@
   border-right: 1px #bbbbbb solid;
   height: 100vh;
 }
-/* logo */
+/* Logo */
 .logo-site {
   height: 48px;
 }
@@ -23,21 +23,25 @@
   height: 28px;
   width: auto;
 }
-/* menu left */
+/* Menu left */
 .menu-left {
   margin: 0;
 }
+
 .menu-left ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 .menu-left ul li {
   height: 44px;
 }
+
 .menu-left ul li:hover a {
   background-color: #e5e5e5;
 }
+
 .menu-left ul li a {
   line-height: 44px;
   display: block;
@@ -45,13 +49,16 @@
   color: #000000;
   text-decoration: none;
 }
+
 .menu-left ul li a:active {
   background-color: #019160;
   color: #fff;
 }
+
 .header-content {
   width: calc(100% - 221px);
 }
+
 /*-- HEADER --*/
 .header {
   width: calc(100% - 221px);
@@ -61,9 +68,11 @@
   top: 0;
   left: 221px;
 }
+
 .user {
   margin: auto 0;
 }
+
 .user .user-image {
   background-image: url("/assets/content/img/Kien.jpg");
   background-size: cover;
@@ -72,14 +81,17 @@
   border-radius: 50%;
   margin-right: 15px;
 }
+
 .user .user-name {
   margin: auto;
   margin-right: 16px;
 }
+
 .user .option-icon {
   margin: auto;
   margin-right: 16px;
 }
+
 /* CONTENT */
 .content {
   width: calc(100% - 241px);
@@ -89,6 +101,7 @@
   left: 221px;
   padding: 10px 10px 0 10px;
 }
+
 .search-employee {
   width: 230px;
 }

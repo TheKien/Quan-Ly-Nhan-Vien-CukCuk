@@ -9,277 +9,206 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 </head>
 <body>
-    <div class="m-container">
-        <div class="m-row">
-            <label class="m-lable" for="m-btn">1. Button</label>
-            <button class="m-btn">Submit</button>
-        </div>
-        <div class="m-row">
-            <label class="m-lable" for="icon">2. Button Icon</label>
-            <button class="m-btn m-btn-icon">
-                <span><img src="/assets/content/icon/add.png" class="icon"></span>Lập hồ sơ
-            </button>
-        </div>
-        <div class="m-row">
-            <label class="m-lable" for="m-btn-icon-2">3. Button Icon 2</label>
-            <div class="m-btn-icon-2">
-                <button class="m-btn m-btn-icon">
-                    <span><i class="far fa-save"></i></span>Lập hồ sơ
-                </button>
-                <button class="m-btn m-btn-icon-down"><i class="fas fa-chevron-down"></i></button>
+    
+    
+    <br>
+    <div class="grid">
+        <div class="wide">
+            <!-- Button -->
+            <h2>1. Button</h2>
+            <div class="row">
+               
+                <div class="col">
+                    <label class="m-lable" for="m-btn">Button</label>
+                    <button class="m-btn">Đồng Ý</button>
+                </div>
+                <div class="col">
+                    <label class="m-lable" for="icon">Button Icon</label>
+                    <button class="m-btn m-btn-icon">
+                        <span><img src="/assets/content/icon/add.png" class="icon"></span>Lập hồ sơ
+                    </button>
+                </div>
+                <div class="col">
+                    <label class="m-lable" for="m-second-btn">Seconds Button</label>
+                    <button class="m-btn m-second-btn">Nộp hồ sơ</button>
+                </div>
             </div>
-        </div>
-        <div class="m-row">
-            <label class="m-lable" for="m-second-btn">3. Seconds Button</label>
-            <button class="m-btn m-second-btn">Nộp hồ sơ</button>
-        </div>
-        <div class="m-row">
-            <label class="m-lable" for="m-combobox">3. Combobox</label>
-            <div class="m-combobox">
-                <input type="text" class="m-input" placeholder="Hind text">
-                <button class="m-combobox-icon">
-                    <i class="fas fa-chevron-down"></i>
-                </button>
+            <!-- End Button -->
+
+            <!-- Combobox -->
+            <h2>2. Combobox</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="m-combobox">
+                        <input type="text" class="m-input m-combobox-input" placeholder="Chọn/Nhập thông tin">
+                        <button class="m-combobox-btn">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="m-row">
-            <label class="m-lable" for="m-btn">2. Input</label>
-            <input type="text" class="m-input" placeholder="Hind text">
-        </div>
-        <div class="m-row">
-            <label class="m-lable" for="m-btn">3. Input Error</label>
-            <input type="text" class="m-input m-input-error" title="Sai định dạng" placeholder="Hind text">
-        </div>
-        <div class="m-row">
-            <label class="m-lable" for="m-btn">4. Input Search</label>
-            <input type="text" class="m-input m-input-search" title="Sai định dạng" placeholder="Hind text">
-        </div>
-        <div class="m-row">
-            <label class="m-lable" for="m-btn">5. Input Search Error</label>
-            <input type="text" class="m-input m-input-search m-input-error" title="Sai định dạng" placeholder="Hind text">
-        </div>
-        <div class="m-row">
-            <label class="m-lable" for="m-btn">6. Combobox</label>
-            <select name="" id="" class="m-combobox">
-                <option value="">Nam</option>
-                <option value="">Nữ</option>
-            </select>
-        </div>
-        <div class="m-row">
-            <label class="m-lable" for="m-table">7 Table</label>
-            <div class="table-container">
-                <table class="m-table">
-                    <thead>
-                        <tr>
-                            <th>Mã nhân viên</th>
-                            <th>Họ và tên</th>
-                            <th>Giới tính</th>
-                            <th>Ngày sinh</th>
-                            <th>Điện thoại</th>
-                            <th>Email</th>
-                            <th>Chức vụ</th>
-                            <th>Phòng ban</th>
-                            <th>Mức lương cơ bản</th>
-                            <th>Tình trạng công việc</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>MF989</td>
-                            <td>Chu Thị Kim Yến</td>
-                            <td class="m-text-center">Nữ</td>
-                            <td>20/02/2000</td>
-                            <td>0989601134</td>
-                            <td>kimYen2000@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF990</td>
-                            <td>Trần Thế Kiên</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>04/07/2000</td>
-                            <td>0966412366</td>
-                            <td>thekien47hd@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF993</td>
-                            <td>Nguyễn Văn Nam</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>09/01/2000</td>
-                            <td>0964125646</td>
-                            <td>namnguyen@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF991</td>
-                            <td>Nguyễn Anh Tuấn</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>08/03/1999</td>
-                            <td>0947324198</td>
-                            <td>nguyenanhtuan@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF989</td>
-                            <td>Chu Thị Kim Yến</td>
-                            <td class="m-text-center">Nữ</td>
-                            <td>20/02/2000</td>
-                            <td>0989601134</td>
-                            <td>kimYen2000@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF990</td>
-                            <td>Trần Thế Kiên</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>04/07/2000</td>
-                            <td>0966412366</td>
-                            <td>thekien47hd@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF993</td>
-                            <td>Nguyễn Văn Nam</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>09/01/2000</td>
-                            <td>0964125646</td>
-                            <td>namnguyen@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF991</td>
-                            <td>Nguyễn Anh Tuấn</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>08/03/1999</td>
-                            <td>0947324198</td>
-                            <td>nguyenanhtuan@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF989</td>
-                            <td>Chu Thị Kim Yến</td>
-                            <td class="m-text-center">Nữ</td>
-                            <td>20/02/2000</td>
-                            <td>0989601134</td>
-                            <td>kimYen2000@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF990</td>
-                            <td>Trần Thế Kiên</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>04/07/2000</td>
-                            <td>0966412366</td>
-                            <td>thekien47hd@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF993</td>
-                            <td>Nguyễn Văn Nam</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>09/01/2000</td>
-                            <td>0964125646</td>
-                            <td>namnguyen@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF991</td>
-                            <td>Nguyễn Anh Tuấn</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>08/03/1999</td>
-                            <td>0947324198</td>
-                            <td>nguyenanhtuan@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF989</td>
-                            <td>Chu Thị Kim Yến</td>
-                            <td class="m-text-center">Nữ</td>
-                            <td>20/02/2000</td>
-                            <td>0989601134</td>
-                            <td>kimYen2000@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF990</td>
-                            <td>Trần Thế Kiên</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>04/07/2000</td>
-                            <td>0966412366</td>
-                            <td>thekien47hd@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF993</td>
-                            <td>Nguyễn Văn Nam</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>09/01/2000</td>
-                            <td>0964125646</td>
-                            <td>namnguyen@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td>MF991</td>
-                            <td>Nguyễn Anh Tuấn</td>
-                            <td class="m-text-center">Nam</td>
-                            <td>08/03/1999</td>
-                            <td>0947324198</td>
-                            <td>nguyenanhtuan@gmail.com</td>
-                            <td>Fresher Web Dev</td>
-                            <td>Phòng sản xuất</td>
-                            <td class="m-text-right">50.000.000</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <!-- End Combobox -->
+
+            <!-- Input -->
+            <h2>3. Input</h2>
+            <div class="row">
+                <div class="col">
+                    <label class="m-lable" for="m-btn">Input</label>
+                    <input type="text" class="m-input" placeholder="Nhập thông tin">
+                </div>
+                <div class="col">
+                    <label class="m-lable" for="m-error-notify">Input Error</label>
+                    <div class="m-input-error">
+                        <input type="text" class="m-input m-error-notify" placeholder="Nhập thông tin">
+                        <div class="m-error-info">Mật khẩu không đúng định dạng
+                            <div class="m-arrow-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <label class="m-lable" for="m-btn">Input Search</label>
+                    <input type="text" class="m-input m-input-search" placeholder="Nhập thông tin">
+                </div>
+                <div class="col">
+                    <label for="m-label">Input calendar</label>
+                    <div class="m-calendar">
+                        <div class="m-combobox">
+                            <input type="text" class="m-input m-combobox-input" placeholder="_ _/_ _/_ _ _ _">
+                            <button class="m-combobox-btn">
+                                <i class="fas fa-calendar-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
+            <!-- End Input -->
+
+            <!-- Dropdown -->
+            <h2>4. Dropdown</h2>
+            <div class="row">
+                <div class="col">
+                    <label class="m-lable" for="m-dropdown">Dropdown</label>
+                    <div class="m-dropdown">
+                        <button class="m-dropdown-btn">
+                            Thêm nhân viên
+                            <span class="m-dropdown-icon-down"><i class="fas fa-chevron-down"></i></span> 
+                        </button>
+                    </div>
+                </div>
+                <div class="col">
+                    <label class="m-lable" for="m-dropdown">Dropdown Icon</label>
+                    <div class="m-dropdown">
+                        <button class="m-dropdown-btn">
+                            <span class="m-dropdown-icon"><i class="fas fa-plus"></i></span>
+                            Trạng thái hồ sơ
+                            <span class="m-dropdown-icon-down"><i class="fas fa-chevron-down"></i></span> 
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- End Dropdown -->
+            
+            <!-- Chip Status -->
+            <h2>5. Chip status</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="m-chip m-chip-danger">Bị từ chối</div>
+                </div>
+                <div class="col">
+                    <div class="m-chip m-chip-success">Đã duyệt</div>
+                </div>
+                <div class="col">
+                    <div class="m-chip m-chip-primary">Đã gửi</div>
+                </div>
+                <div class="col">
+                    <div class="m-chip m-chip-warning">Thiếu thông tin</div>
+                </div>
+                <div class="col">
+                    <div class="m-chip m-chip-secondary">Chưa gửi</div>
+                </div>      
+            </div>
+            <!-- End Chip Status -->
+
+            <!-- Toast Messenger -->
+            <h2>6. Toast Messenger</h2>
+            <div class="row">
+                <div class="col"><button class="m-btn" id="showToast">Show</button></div>
+                <div class="col"><button class="m-btn" id="hideToast">Hide</button></div>
+                
+                
+                <div class="m-toast-status" style="display: none;">
+                    <div class="m-toast m-toast-danger">
+                        <div class="m-toast-icon">
+                            <i class="fa fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="m-toast-text">
+                            Không thể xóa bản ghi này!
+                        </div>
+                        <div class="m-toast-close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="m-toast m-toast-success">
+                        <div class="m-toast-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="m-toast-text">
+                            Thêm mới bản ghi thành công!
+                        </div>
+                        <div class="m-toast-close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="m-toast m-toast-primary">
+                        <div class="m-toast-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <div class="m-toast-text">
+                            Cập nhật bản ghi thành công!
+                        </div>
+                        <div class="m-toast-close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="m-toast m-toast-warning">
+                        <div class="m-toast-icon">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                        <div class="m-toast-text">
+                            Dữ liệu đã xóa không thế khôi phục!
+                        </div>
+                        <div class="m-toast-close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Toast Messenger -->
+        </div> <!-- End .wide-->
+    </div> <!-- End .grid-->
+    <a href="pages/employee.html" >Trang Nhân Viên </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // $("#dialogPopup").hide();
+            // // show pop up
+            // $("#btnShowPopup").click(function () {
+            //     $("#dialogPopup").show();
+            // });
+            // $(".m-btn-close").click(function () {
+            //     $("#dialogPopup").hide();
+            // });
+
+            // show toast
+            $("#showToast").click(function () {
+                $(".m-toast-status").show();
+            });
+            $("#hideToast").click(function () {
+                $(".m-toast-status").hide();
+            });
+        });
+    </script>
 </body>
 </html>
