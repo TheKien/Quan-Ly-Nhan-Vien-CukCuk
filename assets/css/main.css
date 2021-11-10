@@ -1,6 +1,5 @@
-@import url("/assets/content/font/fontawesome-5.15.1/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
 @import url("common/grid.css");
-@import url("common/common.css");
 @import url("component/button.css");
 @import url("component/combobox.css");
 @import url("component/input.css");
@@ -10,6 +9,7 @@
 @import url("component/chip-status.css");
 @import url("component/toast.css");
 
+@import url("common/common.css");
 @import url("common/style.css");
 
 body {

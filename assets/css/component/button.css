@@ -42,6 +42,11 @@
   border-radius: 0;
   float: left;
 }
+.m-btn .m-btn-link{
+  
+  text-decoration: none;
+  color: #FFF;
+}
 
 .m-btn:active,
 .m-btn-icon:active,

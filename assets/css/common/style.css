@@ -69,10 +69,6 @@
   left: 221px;
 }
 
-.user {
-  margin: auto 0;
-}
-
 .user .user-image {
   background-image: url("/assets/content/img/Kien.jpg");
   background-size: cover;
@@ -104,4 +100,8 @@
 
 .search-employee {
   width: 230px;
+}
+
+.content-search-bar div{
+  margin-right: 10px;
 }

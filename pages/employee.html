@@ -23,7 +23,7 @@
             <nav class="menu-left">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="../index.html">
                             <span class="m-icon"><img src="/assets/content/icon/dashboard.png" alt=""></span>
                             Tổng quan
                         </a>
@@ -53,7 +53,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="../index.html">
                             <span class="m-icon"><img src="/assets/content/icon/setting.png" alt=""></span>
                             Thiết lập
                         </a>
@@ -62,10 +62,13 @@
             </nav> <!-- End .menu-left -->
         </div> <!-- End .navbar -->
 
-            <div class="header m-flex-between">
-                <select name="" id="" class="m-combobox m-border-none" style="margin: auto 0;">
-                    <option value="">Chi nhánh Misa Miền Bắc</option>
-                </select>
+            <div class="header m-flex-between m-flex-item-center">
+                <div class="m-dropdown m-border-none">
+                    <button class="m-dropdown-btn">
+                        <b>Chi nhánh Misa miền Bắc</b> 
+                        <span class="m-dropdown-icon-down"><i class="fas fa-chevron-down"></i></span> 
+                    </button>
+                </div>
                 <div class="user m-flex-wrap">
                     <div class="user-image"></div>
                     <div class="user-name">Trần Thế Kiên</div>
@@ -84,14 +87,22 @@
                     </div>
                 </div>
                <div class="m-flex-between m-row">
-                    <div>
-                        <input type="text" class="m-input m-input-search search-employee" placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại">
-                        <select name="" id="" class="m-combobox">
-                            <option value="">Tất cả phong ban</option>
-                        </select>
-                        <select name="" id="" class="m-combobox">
-                            <option value="">Tất cả vị trí</option>
-                        </select>
+                    <div class="m-flex-wrap content-search-bar" >
+                        <div>
+                            <input type="text" class="m-input m-input-search search-employee" placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại">
+                        </div>
+                        <div class="m-dropdown">
+                            <button class="m-dropdown-btn">
+                                Tất cả phòng ban
+                                <span class="m-dropdown-icon-down"><i class="fas fa-chevron-down"></i></span> 
+                            </button>
+                        </div>
+                        <div class="m-dropdown">
+                            <button class="m-dropdown-btn">
+                                Tất cả vị trí
+                                <span class="m-dropdown-icon-down"><i class="fas fa-chevron-down"></i></span> 
+                            </button>
+                        </div>
                     </div>
                     <div>
                         <button class="m-btn m-btn-icon m-second-btn"><img src="/assets/content/icon/refresh.png" alt="" class="icon" style="margin: 0;"></button>
