@@ -13,7 +13,7 @@
 }
 
 .m-btn:hover {
-  background-color: #2fbe8e;
+  background-color: #2FBE8E;
 }
 
 .m-btn.m-btn-icon {
@@ -29,23 +29,30 @@
 
 .m-btn.m-second-btn {
   min-width: 40px;
-  background-color: #fff;
+  background-color: #FFF;
   color: #000000;
   border: 1px #e9ebee solid;
 }
 
 .m-second-btn:hover {
-  background-color: #e9ebee;
+  background-color: #E9EBEE;
 }
 
 .m-btn-icon-2 button{
   border-radius: 0;
   float: left;
 }
-.m-btn .m-btn-link{
-  
-  text-decoration: none;
-  color: #FFF;
+
+.m-btn-danger{
+  background-color: #F65454;
+}
+.m-btn-secondary{
+  background-color: #E9EBEE;
+  color: #000000;
+}
+.m-btn-secondary:hover{
+  background-color: #BBBBBB;
+
 }
 
 .m-btn:active,
@@ -54,4 +61,7 @@
   background-color: #01b075;
   color: #ffffff;
 }
- 
+.m-btn-secondary:active{
+  background-color: #E9EBEE;
+  color: #000000;
+}

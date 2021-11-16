@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết nhân viên</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+    <h2> Form Info Employee</h2>
+    <div class="grid">
+        <div class="wide">
+            <div class="row">
+                <div class="col">
+                    <!-- Button show -->
+                    <!-- <button class="m-btn" id="btnShowModalInfo">Info Employee</button> -->
+                    <div id="" class="m-modal">
+                        <div class="m-modal-md">
+                            <!-- Modal header -->
+                            <div class="m-modal-header">
+                                <div class="m-modal-title">
+                                    Thông tin nhân viên
+                                </div>
+                                <div class="m-modal-close">
+                                    <i class="fas fa-times"></i>
+                                </div>
+                            </div>
+                            <!-- Modal content -->
+                            <div class="m-modal-content">
+                                <div class="m-modal-left">
+                                    <div class="m-modal-avatar">
+                                        <label for="avatar"><img src="../assets/content/img/default-avatar.jpg" alt=""></label>
+                                        <input type="file" name="avatar" id="avatar">
+                                    </div>
+                                    <div class="m-modal-notefile">
+                                        <p>(Vui lòng chọn ảnh có định dạng .jpg, .jpeg, .png, .gif.)</p>
+                                    </div>
+                                </div>
+                                <div class="m-modal-right">
+                                    <div class="m-modal-title">
+                                        <p>A. Thông tin chung</p>
+                                    </div>
+                                    <div class="m-modal-row">
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Mã nhân viên (<span>*</span>)</label>
+                                                <div>
+                                                    <input type="text" class="m-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Họ và tên (<span>*</span>)</label>
+                                                <div>
+                                                    <input type="text" class="m-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-modal-row">
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Ngày sinh (<span>*</span>)</label>
+                                                <div class="m-calendar">
+                                                    <div class="m-combobox m-input-icon">
+                                                        <input type="text" class="m-input m-combobox-input" placeholder="_ _/_ _/_ _ _ _">
+                                                        <button class="m-combobox-btn">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Giới tính</label>
+                                                <select name="" id="" class="m-dropdown">
+                                                    <option value="">Nam</option>
+                                                    <option value="">Nữ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-modal-row">
+        
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Số CMTND/ Căn cước (<span>*</span>)</label>
+                                                <div>
+                                                    <input type="text" class="m-input">
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Ngày cấp</label>
+                                                <div class="m-calendar">
+                                                    <div class="m-combobox m-input-icon">
+                                                        <input type="text" class="m-input m-combobox-input" placeholder="_ _/_ _/_ _ _ _">
+                                                        <button class="m-combobox-btn">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-modal-row">
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Nơi cấp</label>
+                                                <div>
+                                                    <input type="text" class="m-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-modal-row">
+        
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Email (<span>*</span>)</label>
+                                                <div>
+                                                    <input type="text" class="m-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Số điện thoại (<span>*</span>)</label>
+                                                <div>
+                                                    <input type="text" class="m-input">
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                    <div class="m-modal-title" style="margin-top: 10px;">
+                                        <p>B. Thông tin công việc</p>
+                                    </div>
+                                    <div class="m-modal-row">
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Vị trí</label>
+                                                <select name="" id="" class="m-dropdown">
+                                                    <option value="">Giám đốc</option>
+                                                    <option value="">Phó giám đốc</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Phòng ban</label>
+                                                <select name="" id="" class="m-dropdown">
+                                                    <option value="">Phòng nhân sự</option>
+                                                    <option value="">Phó giám đốc</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-modal-row">
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Mã số thuế cá nhân</label>
+                                                <div>
+                                                    <input type="text" class="m-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Mức lương cơ bản</label>
+                                                <div>
+                                                    <input type="text" class="m-input">
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                    <div class="m-modal-row">
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Ngày gia nhập công ty</label>
+                                                <div class="m-calendar">
+                                                    <div class="m-combobox m-input-icon">
+                                                        <input type="text" class="m-input m-combobox-input" placeholder="_ _/_ _/_ _ _ _">
+                                                        <button class="m-combobox-btn">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-modal-col">
+                                            <div class="m-modal-group">
+                                                <label for="">Tình trạng công việc</label>
+                                                <div>
+                                                    <input type="text" class="m-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal footer -->
+                            <div class="m-modal-footer">
+                                <button class="m-btn m-btn-secondary">Hủy</button>
+                                <button class="m-btn m-btn-icon">
+                                    <span class="icon"><i class="fas fa-save"></i></span>Lưu
+                                </button>
+                            </div>
+                        </div>
+                        <!-- <div class="modal-background"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

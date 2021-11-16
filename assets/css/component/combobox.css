@@ -2,18 +2,20 @@
   height: 40px;
   border: 1px solid #bbbbbb;
   border-radius: 4px;
-  min-width: 100px;
-  display: inline-block;
   overflow: hidden;
+  position: relative;
 }
 
 .m-combobox .m-combobox-input {
   border: none;
   height: 100%;
-  padding-left: 16px;
+  padding: 0 53px 0 16px;
+  outline: unset;
 }
 
 .m-combobox .m-combobox-btn {
+  position: absolute;
+  right: 0;
   border: none;
   border-left: 1px solid #bbbbbb;
   background-color: #fff;
@@ -21,7 +23,9 @@
   padding: 0 12px;
   cursor: pointer;
 }
-
-.m-combobox .m-combobox-input:focus + .m-combobox {
+.m-combobox-btn.m-combobox-btn-no-border{
+  border: none;
+}
+.m-combobox .m-combobox-input:active ~ .m-combobox {
   border-color: #019160;
 }

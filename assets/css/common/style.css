@@ -70,7 +70,7 @@
 }
 
 .user .user-image {
-  background-image: url("/assets/content/img/Kien.jpg");
+  background-image: url("../../content/img/Kien.jpg");
   background-size: cover;
   height: 24px;
   width: 24px;

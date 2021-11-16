@@ -2,7 +2,7 @@
   border: 1px #bbbbbb solid;
   border-radius: 5px;
   height: 40px;
-  padding:0 0 0 16px;
+  padding:0 16px;
   background-color: unset;
   outline: unset;
 }
@@ -58,8 +58,4 @@
   height: 15px;
   transform: rotate(45deg);
   background-color: #ff4747;
-}
-
-.m-calendar .m-combobox-btn{
-  border: none;
 }
